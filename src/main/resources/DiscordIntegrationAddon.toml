@@ -1,0 +1,19 @@
+# Name of the addon
+name = "RoleChecker"
+
+# Version of the addon
+version = "1.0.0"
+# Path to the main class of the addon
+# Example: "com.example.exampleaddon.ExampleAddon"
+#
+# If this parameter is missing, your addon will not load
+classPath = "com.rldiversion.rolechecker.rolecheckerclass"
+
+# Author of the Addon (optional)
+author = "rlDiversion"
+
+# Description of the Addon (optional)
+description = "This addon will check if the user has his account linked, if it is linked, the addon will check its roles and will run a command on the minecraft server."
+
+# Required parameter to specify if the addon is compatible with this API version
+APIVersion = 3
