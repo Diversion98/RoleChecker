@@ -1,5 +1,10 @@
 package com.rldiversion.rolechecker;
 
+import de.erdbeerbaerlp.dcintegration.common.DiscordIntegration;
+import de.erdbeerbaerlp.dcintegration.common.addon.AddonConfigRegistry;
+import de.erdbeerbaerlp.dcintegration.common.addon.DiscordIntegrationAddon;
+import de.erdbeerbaerlp.dcintegration.common.storage.CommandRegistry;
+
 public class RoleCheckerClass implements DiscordIntegrationAddon {
     private RoleCheckerConfig cfg;
 
@@ -17,7 +22,7 @@ public class RoleCheckerClass implements DiscordIntegrationAddon {
     }
 
     @Override
-    public void unload(Discord dc) {
+    public void unload(DiscordIntegration dc) {
         DiscordIntegration.LOGGER.info("RoleChecker Addon unloaded");
     }
 }
