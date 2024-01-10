@@ -7,7 +7,7 @@ version = "1.0.0"
 # Example: "com.example.exampleaddon.ExampleAddon"
 #
 # If this parameter is missing, your addon will not load
-classPath = "com.rldiversion.rolechecker.rolecheckerclass"
+classPath = "com.rldiversion.rolechecker.RoleCheckerClass"
 
 # Author of the Addon (optional)
 author = "rlDiversion"
